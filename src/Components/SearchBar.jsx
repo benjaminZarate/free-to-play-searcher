@@ -1,4 +1,3 @@
-import {useState} from 'react';
 import { useGenre } from './GenreContext';
 
 function SearchBar({games})

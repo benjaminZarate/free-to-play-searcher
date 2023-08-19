@@ -5,7 +5,7 @@ function Card({game})
     return(
       <div className="my-8 rounded shadow-gray-200 dark:shadow-gray-900 bg-white dark:bg-gray-800 duration-300 hover:-translate-y-1"
                 x-for="(post, index) in posts">
-        <a href={game.game_url} target='_blank' className="cursor-pointer">
+        <a href={game.game_url} target='_blank' rel="noreferrer" className="cursor-pointer">
           <figure>
             <img src={game.thumbnail} className="rounded-t h-72 w-full object-cover" />
             <figcaption className="p-4">

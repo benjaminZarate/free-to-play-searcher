@@ -11,19 +11,19 @@ function Footer()
             <div className="footer w-full">
                 <div className='flex flex-col items-center justify-center'>
                     <div className="flex pb-5">
-                        <a className='p-4 h-16 w-16' href="https://www.instagram.com/hamdev_/" target='_blank'>
-                            <img className = "invert"src={instagram}></img>
+                        <a className='p-4 h-16 w-16' href="https://www.instagram.com/hamdev_/" target='_blank' rel="noreferrer">
+                            <img className = "invert"src={instagram} alt="github"></img>
                         </a>
-                        <a className='p-4 h-16 w-16' href="https://www.linkedin.com/in/benjamin-zarate/" target='_blank'>
-                            <img className = "invert" src={linkedin}></img>
+                        <a className='p-4 h-16 w-16' href="https://www.linkedin.com/in/benjamin-zarate/" target='_blank' rel="noreferrer">
+                            <img className = "invert" src={linkedin} alt="github"></img>
                         </a>
-                        <a className='p-4 h-16 w-16' href="https://github.com/benjaminZarate" target='_blank'>
-                            <img src={github}></img>
+                        <a className='p-4 h-16 w-16' href="https://github.com/benjaminZarate" target='_blank' rel="noreferrer">
+                            <img src={github} alt="github"></img>
                         </a>
                     </div>
                     <div className='flex'>
                         <a className='pr-10 text-white' href="#">Portfolio</a>
-                        <a className=' text-white'href="https://github.com/benjaminZarate/free-to-play-searcher" target='_blank'>Source code</a>
+                        <a className=' text-white'href="https://github.com/benjaminZarate/free-to-play-searcher" target='_blank' rel="noreferrer">Source code</a>
                     </div>
                 </div>
                 <div className="items-center pt-10 text-gray-400">
