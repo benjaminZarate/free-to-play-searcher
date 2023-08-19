@@ -22,7 +22,7 @@ function Footer()
                         </a>
                     </div>
                     <div className='flex'>
-                        <a className='pr-10 text-white' href="#">Portfolio</a>
+                        <a className='pr-10 text-white' href="https://benjaminzarate.me/" target='_blank' rel="noreferrer">Portfolio</a>
                         <a className=' text-white'href="https://github.com/benjaminZarate/free-to-play-searcher" target='_blank' rel="noreferrer">Source code</a>
                     </div>
                 </div>

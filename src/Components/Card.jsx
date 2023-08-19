@@ -7,7 +7,7 @@ function Card({game})
                 x-for="(post, index) in posts">
         <a href={game.game_url} target='_blank' rel="noreferrer" className="cursor-pointer">
           <figure>
-            <img src={game.thumbnail} className="rounded-t h-72 w-full object-cover" />
+            <img src={game.thumbnail} className="rounded-t h-72 w-full object-cover" alt="thumbnail"/>
             <figcaption className="p-4">
                 <p className="text-lg mb-4 font-bold leading-relaxed text-gray-800 dark:text-gray-300"
                     x-text={game.title}>
