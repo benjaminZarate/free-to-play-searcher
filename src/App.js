@@ -35,6 +35,9 @@ function App() {
 
   return (
     <GenreProvider>
+      <div className='flex'>
+        <p className='text-white pl-2 pt-2 flex text-xs'>Version 1.0</p>
+      </div>
       <div className="App">
         <Title />
         {games ? <SearchBar games={games}/> : <LoadingSpin/>}
